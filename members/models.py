@@ -1,4 +1,5 @@
 from django.db import models
+from groupings.models import Groupings
 
 # Create your models here.
 
@@ -18,6 +19,7 @@ class Member(models.Model):
     last_name_ch = models.CharField(max_length=30)
     date_of_birth = models.IntegerField()
     country_id = models.ForeignKey(Countries, on_delete=models.CASCADE)
+    groupings_id = models.ManyToManyField(Groupings)
 
     def __str__(self):
         return self.first_name
