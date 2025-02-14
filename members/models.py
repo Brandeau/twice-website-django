@@ -8,14 +8,14 @@ class Countries(models.Model):
 
 
 class Member(models.Model):
-    first_name = models.TextField(max_length=30)
-    last_name = models.TextField(max_length=30)
-    first_name_jap = models.TextField(max_length=30)
-    last_name_jap = models.TextField(max_length=30)
-    first_name_kor = models.TextField(max_length=30)
-    last_name_kor = models.TextField(max_length=30)
-    first_name_ch = models.TextField(max_length=30)
-    last_name_ch = models.TextField(max_length=30)
+    first_name = models.CharField(max_length=30)
+    last_name = models.CharField(max_length=30)
+    first_name_jap = models.CharField(max_length=30)
+    last_name_jap = models.CharField(max_length=30)
+    first_name_kor = models.CharField(max_length=30)
+    last_name_kor = models.CharField(max_length=30)
+    first_name_ch = models.CharField(max_length=30)
+    last_name_ch = models.CharField(max_length=30)
     date_of_birth = models.IntegerField()
     country_id = models.ForeignKey(Countries, on_delete=models.CASCADE)
 
