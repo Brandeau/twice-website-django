@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "members",
     "groupings",
     "releases",
+    "tracks",
 ]
 
 MIDDLEWARE = [
