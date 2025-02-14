@@ -1,0 +1,23 @@
+[
+    {
+        "model": "releases.ReleaseFormats",
+        "pk": 1,
+        "fields": {
+            "format": "Physical"
+        }
+    },
+    {
+        "model": "releases.ReleaseFormats",
+        "pk": 2,
+        "fields": {
+            "format": "Digital/Streaming"
+        }
+    },
+    {
+        "model": "releases.ReleaseFormats",
+        "pk": 3,
+        "fields": {
+            "format": "Result file"
+        }
+    }
+]

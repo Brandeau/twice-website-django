@@ -1,0 +1,72 @@
+[
+    {
+        "model": "releases.ReleaseGroupType",
+        "pk": 1,
+        "fields":{
+            "type": "Full Album"
+        }
+    },
+    {
+        "model": "releases.ReleaseGroupType",
+        "pk": 2,
+        "fields":{
+            "type": "Mini Album"
+        }
+    },
+    {
+        "model": "releases.ReleaseGroupType",
+        "pk": 3,
+        "fields":{
+            "type": "Japanese Studio Album"
+        }
+    },
+    {
+        "model": "releases.ReleaseGroupType",
+        "pk": 4,
+        "fields":{
+            "type": "Japanese Maxi Single"
+        }
+    },
+    {
+        "model": "releases.ReleaseGroupType",
+        "pk": 5,
+        "fields":{
+            "type": "Non-album Singles"
+        }
+    },
+    {
+        "model": "releases.ReleaseGroupType",
+        "pk": 6,
+        "fields":{
+            "type": "Reissue"
+        }
+    },
+    {
+        "model": "releases.ReleaseGroupType",
+        "pk": 7,
+        "fields":{
+            "type": "Special Album"
+        }
+    },
+    {
+        "model": "releases.ReleaseGroupType",
+        "pk": 8,
+        "fields":{
+            "type": "Japanese Compilation Studio Album"
+        }
+    },
+    {
+        "model": "releases.ReleaseGroupType",
+        "pk": 9,
+        "fields":{
+            "type": "Japanese Compilation EP"
+        }
+    },
+    {
+        "model": "releases.ReleaseGroupType",
+        "pk": 10,
+        "fields":{
+            "type": "Remix Album"
+        }
+    }
+]

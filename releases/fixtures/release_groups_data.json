@@ -1,0 +1,434 @@
+[
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 1,
+        "fields": {
+            "name": "Twicetagram",
+            "grouping_id": 1,
+            "type_id": 1
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 2,
+        "fields": {
+            "name": "Eyes Wide Open",
+            "grouping_id": 1,
+            "type_id": 1
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 3,
+        "fields": {
+            "name": "Formula of Love: O+T=<3",
+            "grouping_id": 1,
+            "type_id": 1
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 4,
+        "fields": {
+            "name": "BDZ",
+            "grouping_id": 1,
+            "type_id": 3
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 5,
+        "fields": {
+            "name": "&Twice",
+            "grouping_id": 1,
+            "type_id": 3
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 6,
+        "fields": {
+            "name": "Perfect World",
+            "grouping_id": 1,
+            "type_id": 3
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 7,
+        "fields": {
+            "name": "Celebrate",
+            "grouping_id": 1,
+            "type_id": 3
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 8,
+        "fields": {
+            "name": "Dive",
+            "grouping_id": 1,
+            "type_id": 3
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 9,
+        "fields": {
+            "name": "Merry & Happy",
+            "grouping_id": 1,
+            "type_id": 6
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 10,
+        "fields": {
+            "name": "The Story Begins",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 11,
+        "fields": {
+            "name": "Page Two",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 12,
+        "fields": {
+            "name": "Twicecoaster: Lane 1",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 13,
+        "fields": {
+            "name": "Signal",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 14,
+        "fields": {
+            "name": "What is Love?",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 15,
+        "fields": {
+            "name": "Yes or Yes",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 16,
+        "fields": {
+            "name": "Fancy You",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 17,
+        "fields": {
+            "name": "Feel Special",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 18,
+        "fields": {
+            "name": "More & More",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 19,
+        "fields": {
+            "name": "Taste of Love",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 20,
+        "fields": {
+            "name": "Between 1&2",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 21,
+        "fields": {
+            "name": "Ready to Be",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 22,
+        "fields": {
+            "name": "With You-th",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 23,
+        "fields": {
+            "name": "Strategy",
+            "grouping_id": 1,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 24,
+        "fields": {
+            "name": "Twicecoaster: Lane 2",
+            "grouping_id": 1,
+            "type_id": 6
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 25,
+        "fields": {
+            "name": "Summer Nights",
+            "grouping_id": 1,
+            "type_id": 6
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 26,
+        "fields": {
+            "name": "The Year of \"Yes\"",
+            "grouping_id": 1,
+            "type_id": 6
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 27,
+        "fields": {
+            "name": "#Twice",
+            "grouping_id": 1,
+            "type_id": 8
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 28,
+        "fields": {
+            "name": "#Twice2",
+            "grouping_id": 1,
+            "type_id": 8
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 29,
+        "fields": {
+            "name": "#Twice3",
+            "grouping_id": 1,
+            "type_id": 8
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 30,
+        "fields": {
+            "name": "#Twice4",
+            "grouping_id": 1,
+            "type_id": 8
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 31,
+        "fields": {
+            "name": "What's Twice?",
+            "grouping_id": 1,
+            "type_id": 9
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 32,
+        "fields": {
+            "name": "The Remixes",
+            "grouping_id": 1,
+            "type_id": 10
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 33,
+        "fields": {
+            "name": "Masterpiece",
+            "grouping_id": 2,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 34,
+        "fields": {
+            "name": "Haute Couture",
+            "grouping_id": 2,
+            "type_id": 2
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 35,
+        "fields": {
+            "name": "Im Nayeon",
+            "grouping_id": 2,
+            "type_id": 3
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 36,
+        "fields": {
+            "name": "Na",
+            "grouping_id": 2,
+            "type_id": 3
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 37,
+        "fields": {
+            "name": "Zone",
+            "grouping_id": 2,
+            "type_id": 4
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 38,
+        "fields": {
+            "name": "Aboutzu",
+            "grouping_id": 2,
+            "type_id": 5
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 39,
+        "fields": {
+            "name": "One More Time",
+            "grouping_id": 1,
+            "type_id": 4
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 40,
+        "fields": {
+            "name": "Candy Pop",
+            "grouping_id": 1,
+            "type_id": 4
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 41,
+        "fields": {
+            "name": "Wake Me Up",
+            "grouping_id": 1,
+            "type_id": 4
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 42,
+        "fields": {
+            "name": "Happy Happy",
+            "grouping_id": 1,
+            "type_id": 4
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 43,
+        "fields": {
+            "name": "Breakthrough",
+            "grouping_id": 1,
+            "type_id": 4
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 44,
+        "fields": {
+            "name": "Fanfare",
+            "grouping_id": 1,
+            "type_id": 4
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 45,
+        "fields": {
+            "name": "Better",
+            "grouping_id": 1,
+            "type_id": 4
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 46,
+        "fields": {
+            "name": "Kura Kura",
+            "grouping_id": 1,
+            "type_id": 4
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 47,
+        "fields": {
+            "name": "Doughnut",
+            "grouping_id": 1,
+            "type_id": 4
+        }
+    },
+    {
+        "model": "releases.ReleaseGroups",
+        "pk": 48,
+        "fields": {
+            "name": "Hare Hare",
+            "grouping_id": 1,
+            "type_id": 4
+        }
+    }
+]

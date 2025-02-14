@@ -1,0 +1,746 @@
+[
+    {
+        "model": "releases.Releases",
+        "pk": 1,
+        "fields": {
+            "title": "Twicetagram",
+            "release_year": 2017,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 1,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 2,
+        "fields": {
+            "title": "Twicetagram",
+            "release_year": 2017,
+            "format_id": null,
+            "country_id": 6,
+            "release_group_id": 1,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 3,
+        "fields": {
+            "title": "Eyes Wide Open",
+            "release_year": 2020,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 2,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 4,
+        "fields": {
+            "title": "Formula of Love: O+T=<3",
+            "release_year": 2021,
+            "format_id": 1,
+            "country_id": 1,
+            "release_group_id": 3,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 5,
+        "fields": {
+            "title": "Formula of Love: O+T=<3",
+            "release_year": 2021,
+            "format_id": 2,
+            "country_id": 1,
+            "release_group_id": 3,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 6,
+        "fields": {
+            "title": "Formula of Love: O+T=<3",
+            "release_year": 2021,
+            "format_id": 3,
+            "country_id": 1,
+            "release_group_id": 3,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 7,
+        "fields": {
+            "title": "BDZ",
+            "release_year": 2018,
+            "format_id": 1,
+            "country_id": 2,
+            "release_group_id": 4,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 8,
+        "fields": {
+            "title": "BDZ",
+            "release_year": 2018,
+            "format_id": 2,
+            "country_id": 2,
+            "release_group_id": 4,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 9,
+        "fields": {
+            "title": "&Twice",
+            "release_year": 2019,
+            "format_id": 1,
+            "country_id": 2,
+            "release_group_id": 5,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 10,
+        "fields": {
+            "title": "&Twice",
+            "release_year": 2019,
+            "format_id": 2,
+            "country_id": 2,
+            "release_group_id": 5,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 11,
+        "fields": {
+            "title": "Perfect World",
+            "release_year": 2021,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 6,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 12,
+        "fields": {
+            "title": "Celebrate",
+            "release_year": 2022,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 7,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 13,
+        "fields": {
+            "title": "Dive",
+            "release_year": 2024,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 8,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 14,
+        "fields": {
+            "title": "Merry & Happy",
+            "release_year": 2017,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 9,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 15,
+        "fields": {
+            "title": "The Story Begins",
+            "release_year": 2015,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 10,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 16,
+        "fields": {
+            "title": "Page Two",
+            "release_year": 2016,
+            "format_id": 1,
+            "country_id": 1,
+            "release_group_id": 11,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 17,
+        "fields": {
+            "title": "Page Two",
+            "release_year": 2016,
+            "format_id": 2,
+            "country_id": 1,
+            "release_group_id": 11,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 18,
+        "fields": {
+            "title": "Twicecoaster: Lane 1",
+            "release_year": 2016,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 12,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 19,
+        "fields": {
+            "title": "Signal",
+            "release_year": 2017,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 13,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 20,
+        "fields": {
+            "title": "What is Love?",
+            "release_year": 2018,
+            "format_id": 1,
+            "country_id": 1,
+            "release_group_id": 14,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 21,
+        "fields": {
+            "title": "What is Love?",
+            "release_year": 2018,
+            "format_id": 2,
+            "country_id": 1,
+            "release_group_id": 14,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 22,
+        "fields": {
+            "title": "Yes or Yes",
+            "release_year": 2018,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 15,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 23,
+        "fields": {
+            "title": "Fancy You",
+            "release_year": 2019,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 16,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 24,
+        "fields": {
+            "title": "Feel Special",
+            "release_year": 2019,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 17,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 25,
+        "fields": {
+            "title": "More & More",
+            "release_year": 2020,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 18,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 26,
+        "fields": {
+            "title": "Taste of Love",
+            "release_year": 2021,
+            "format_id": 1,
+            "country_id": 1,
+            "release_group_id": 19,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 27,
+        "fields": {
+            "title": "Taste of Love",
+            "release_year": 2021,
+            "format_id": 2,
+            "country_id": 1,
+            "release_group_id": 19,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 28,
+        "fields": {
+            "title": "Between 1&2",
+            "release_year": 2022,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 20,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 29,
+        "fields": {
+            "title": "Ready to Be",
+            "release_year": 2023,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 21,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 30,
+        "fields": {
+            "title": "With You-th",
+            "release_year": 2024,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 22,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 31,
+        "fields": {
+            "title": "Strategy",
+            "release_year": 2024,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 23,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 32,
+        "fields": {
+            "title": "Twicecoaster: Lane 2",
+            "release_year": 2017,
+            "format_id": 1,
+            "country_id": 1,
+            "release_group_id": 24,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 33,
+        "fields": {
+            "title": "Twicecoaster: Lane 2",
+            "release_year": 2017,
+            "format_id": 2,
+            "country_id": 1,
+            "release_group_id": 24,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 34,
+        "fields": {
+            "title": "Summer Nights",
+            "release_year": 2018,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 25,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 35,
+        "fields": {
+            "title": "The Year of \"Yes\"",
+            "release_year": 2018,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 26,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 36,
+        "fields": {
+            "title": "#Twice",
+            "release_year": 2017,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 27,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 37,
+        "fields": {
+            "title": "#Twice2",
+            "release_year": 2019,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 28,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 38,
+        "fields": {
+            "title": "#Twice3",
+            "release_year": 2020,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 29,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 39,
+        "fields": {
+            "title": "#Twice4",
+            "release_year": 2022,
+            "format_id": 1,
+            "country_id": 2,
+            "release_group_id": 30,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 40,
+        "fields": {
+            "title": "#Twice4",
+            "release_year": 2022,
+            "format_id": 2,
+            "country_id": 2,
+            "release_group_id": 30,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 41,
+        "fields": {
+            "title": "What's Twice?",
+            "release_year": 2017,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 31,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 42,
+        "fields": {
+            "title": "The Remixes",
+            "release_year": 2023,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 32,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 43,
+        "fields": {
+            "title": "Masterpiece",
+            "release_year": 2023,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 33,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 44,
+        "fields": {
+            "title": "Haute Couture",
+            "release_year": 2024,
+            "format_id": 1,
+            "country_id": 2,
+            "release_group_id": 34,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 45,
+        "fields": {
+            "title": "Haute Couture",
+            "release_year": 2024,
+            "format_id": 2,
+            "country_id": 2,
+            "release_group_id": 34,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 46,
+        "fields": {
+            "title": "Haute Couture",
+            "release_year": 2024,
+            "format_id": 1,
+            "country_id": 2,
+            "release_group_id": 34,
+            "annotation": "Mina version"
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 47,
+        "fields": {
+            "title": "Haute Couture",
+            "release_year": 2024,
+            "format_id": 1,
+            "country_id": 2,
+            "release_group_id": 34,
+            "annotation": "Momo version"
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 48,
+        "fields": {
+            "title": "Haute Couture",
+            "release_year": 2024,
+            "format_id": 1,
+            "country_id": 2,
+            "release_group_id": 34,
+            "annotation": "Sana version"
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 49,
+        "fields": {
+            "title": "Im Nayeon",
+            "release_year": 2022,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 35,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 50,
+        "fields": {
+            "title": "Na",
+            "release_year": 2024,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 36,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 51,
+        "fields": {
+            "title": "Zone",
+            "release_year": 2023,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 37,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 52,
+        "fields": {
+            "title": "Aboutzu",
+            "release_year": 2024,
+            "format_id": null,
+            "country_id": 1,
+            "release_group_id": 38,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 53,
+        "fields": {
+            "title": "One More Time",
+            "release_year": 2017,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 39,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 54,
+        "fields": {
+            "title": "Candy Pop",
+            "release_year": 2018,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 40,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 55,
+        "fields": {
+            "title": "Wake Me Up",
+            "release_year": 2018,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 41,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 56,
+        "fields": {
+            "title": "Happy Happy",
+            "release_year": 2019,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 42,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 57,
+        "fields": {
+            "title": "Breakthrough",
+            "release_year": 2019,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 42,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 58,
+        "fields": {
+            "title": "Fanfare",
+            "release_year": 2020,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 43,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 59,
+        "fields": {
+            "title": "Better",
+            "release_year": 2020,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 44,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 60,
+        "fields": {
+            "title": "Kura Kura",
+            "release_year": 2021,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 45,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 61,
+        "fields": {
+            "title": "Doughnut",
+            "release_year": 2021,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 46,
+            "annotation": null
+        }
+    },
+    {
+        "model": "releases.Releases",
+        "pk": 62,
+        "fields": {
+            "title": "Hare Hare",
+            "release_year": 2023,
+            "format_id": null,
+            "country_id": 2,
+            "release_group_id": 47,
+            "annotation": null
+        }
+    }
+    ]
