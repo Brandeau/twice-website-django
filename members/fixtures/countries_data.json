@@ -1,0 +1,44 @@
+[
+    {
+        "model": "members.Countries",
+        "pk": 1,
+        "fields":{
+            "name": "Korea"
+        }
+    },
+    {
+        "model": "members.Countries",
+        "pk": 2,
+        "fields":{
+            "name": "Japan"
+        }
+    },
+    {
+        "model": "members.Countries",
+        "pk": 3,
+        "fields":{
+            "name": "Taiwan"
+        }
+    },
+    {
+        "model": "members.Countries",
+        "pk": 4,
+        "fields":{
+            "name": "China"
+        }
+    },
+    {
+        "model": "members.Countries",
+        "pk": 5,
+        "fields":{
+            "name": "United States"
+        }
+    },
+    {
+        "model": "members.Countries",
+        "pk": 6,
+        "fields":{
+            "name": "Thailand"
+        }
+    }
+]
