@@ -11,15 +11,15 @@ class Countries(models.Model):
 class Member(models.Model):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
-    first_name_jap = models.CharField(max_length=30)
-    last_name_jap = models.CharField(max_length=30)
-    first_name_kor = models.CharField(max_length=30)
-    last_name_kor = models.CharField(max_length=30)
-    first_name_ch = models.CharField(max_length=30)
-    last_name_ch = models.CharField(max_length=30)
-    date_of_birth = models.IntegerField()
-    country_id = models.ForeignKey(Countries, on_delete=models.CASCADE)
-    groupings_id = models.ManyToManyField(Groupings)
+    first_name_jap = models.CharField(max_length=30, null=True)
+    last_name_jap = models.CharField(max_length=30, null=True)
+    first_name_kor = models.CharField(max_length=30, null=True)
+    last_name_kor = models.CharField(max_length=30, null=True)
+    first_name_ch = models.CharField(max_length=30, null=True)
+    last_name_ch = models.CharField(max_length=30, null=True)
+    date_of_birth = models.CharField(max_length=10, null=True)
+    country_id = models.ForeignKey(Countries, null=True, on_delete=models.CASCADE)
+    groupings_id = models.ManyToManyField(Groupings, null=True)
 
     def __str__(self):
         return self.first_name

@@ -30,14 +30,14 @@ class Releases(models.Model):
     format_id = models.ForeignKey(ReleaseFormats, on_delete=models.SET_NULL, null=True)
     country_id = models.ForeignKey(Countries, on_delete=models.SET_NULL, null=True)
     release_group_id = models.ForeignKey(ReleaseGroups, on_delete=models.CASCADE)
-    annotation = models.TextField(max_length=200)
+    annotation = models.TextField(max_length=200, null=True)
 
     def __str__(self):
         return self.title
 
 class Tracks(models.Model):
     title = models.CharField(max_length=50, null=False)
-    title_kor = models.CharField(max_length=50)
-    title_jap = models.CharField(max_length=50)
-    featuring = models.CharField(max_length=50)
+    title_kor = models.CharField(max_length=50, null=True)
+    title_jap = models.CharField(max_length=50, null=True)
+    featuring = models.CharField(max_length=50, null=True)
     releases = models.ManyToManyField(Releases)

@@ -1,6 +1,6 @@
 [
     {
-        "model": "members.Members",
+        "model": "members.Member",
         "pk": 1,
         "fields":{
             "first_name": "Nayeon",
@@ -16,7 +16,7 @@
         }
     },
     {
-        "model": "members.Members",
+        "model": "members.Member",
         "pk": 2,
         "fields":{
             "first_name": "Jeongyeon",
@@ -32,7 +32,7 @@
         }
     },
     {
-        "model": "members.Members",
+        "model": "members.Member",
         "pk": 3,
         "fields":{
             "first_name": "Momo",
@@ -48,7 +48,7 @@
         }
     },
     {
-        "model": "members.Members",
+        "model": "members.Member",
         "pk": 4,
         "fields":{
             "first_name": "Sana",
@@ -64,7 +64,7 @@
         }
     },
     {
-        "model": "members.Members",
+        "model": "members.Member",
         "pk": 5,
         "fields":{
             "first_name": "Jihyo",
@@ -80,7 +80,7 @@
         }
     },
     {
-        "model": "members.Members",
+        "model": "members.Member",
         "pk": 6,
         "fields":{
             "first_name": "Mina",
@@ -96,7 +96,7 @@
         }
     },
     {
-        "model": "members.Members",
+        "model": "members.Member",
         "pk": 7,
         "fields":{
             "first_name": "Kim",
@@ -112,7 +112,7 @@
         }
     },
     {
-        "model": "members.Members",
+        "model": "members.Member",
         "pk": 8,
         "fields":{
             "first_name": "Chaeyoung",
@@ -128,7 +128,7 @@
         }
     },
     {
-        "model": "members.Members",
+        "model": "members.Member",
         "pk": 9,
         "fields":{
             "first_name": "Tzuyu",
