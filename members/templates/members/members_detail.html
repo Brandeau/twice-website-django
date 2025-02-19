@@ -1,0 +1,40 @@
+<!DOCTYPE html>  <html lang="en">  <head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>{{member.first_name}}</title>  
+</head>
+    <body>
+        <h1>{{member.first_name}}</h1>
+
+    <ul>
+        <p>{{ member.first_name }} {{ member.last_name }}</p>
+
+        <p>{% if member.last_name_kor %}
+            {{member.last_name_kor}}
+            {% endif %}
+            {% if member.first_name_kor %}
+            {{member.first_name_kor}}
+            {% endif %}
+        </p>
+
+        <p>{% if member.last_name_jap %}
+            {{member.last_name_jap}}
+            {% endif %}
+            {% if member.first_name_jap %}
+            {{member.first_name_jap}}
+            {% endif %}
+        </p>
+
+        <p>{% if member.last_name_ch %}
+            {{member.last_name_ch}}
+            {% endif %}
+            {% if member.first_name_ch %}
+            {{member.first_name_ch}}
+            {% endif %}
+        </p>
+
+        <p>Date of birth: {{member.date_of_birth}}</p>
+             
+    </ul>
+    </body> 
+</html>
