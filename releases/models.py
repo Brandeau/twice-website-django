@@ -18,8 +18,8 @@ class ReleaseGroupType(models.Model):
     
 class ReleaseGroup(models.Model):
     name = models.CharField(max_length=50)
-    grouping_id = models.ForeignKey(Grouping, on_delete=models.CASCADE, related_name="releases")
-    type_id = models.ForeignKey(ReleaseGroupType, on_delete=models.SET_NULL, null=True)
+    grouping = models.ForeignKey(Grouping, on_delete=models.CASCADE, null=True, related_name="grouping_of_release_group")
+    type = models.ForeignKey(ReleaseGroupType, on_delete=models.SET_NULL, null=True)
 
     def __str__(self):
         return self.name
@@ -27,9 +27,9 @@ class ReleaseGroup(models.Model):
 class Release(models.Model):
     title = models.CharField(max_length=50)
     release_year = models.IntegerField()
-    format_id = models.ForeignKey(ReleaseFormat, on_delete=models.SET_NULL, null=True)
-    country_id = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True)
-    release_group_id = models.ForeignKey(ReleaseGroup, on_delete=models.CASCADE)
+    format = models.ForeignKey(ReleaseFormat, on_delete=models.SET_NULL, null=True)
+    country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True)
+    release_group = models.ForeignKey(ReleaseGroup, on_delete=models.CASCADE)
     annotation = models.TextField(max_length=200, null=True)
 
     def __str__(self):
