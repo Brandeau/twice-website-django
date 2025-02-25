@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Groupings(models.Model):
+class Grouping(models.Model):
     name = models.CharField(max_length=50)
     type = models.CharField(max_length=50)
 

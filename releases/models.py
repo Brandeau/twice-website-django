@@ -1,10 +1,10 @@
 from django.db import models
-from groupings.models import Groupings
-from members.models import Countries
+from groupings.models import Grouping
+from members.models import Country
 
 # Create your models here.
 
-class ReleaseFormats(models.Model):
+class ReleaseFormat(models.Model):
     format = models.CharField(max_length=50)
 
     def __str__(self):
@@ -16,28 +16,23 @@ class ReleaseGroupType(models.Model):
     def __str__(self):
         return self.type
     
-class ReleaseGroups(models.Model):
+class ReleaseGroup(models.Model):
     name = models.CharField(max_length=50)
-    grouping_id = models.ForeignKey(Groupings, on_delete=models.CASCADE, related_name="releases")
+    grouping_id = models.ForeignKey(Grouping, on_delete=models.CASCADE, related_name="releases")
     type_id = models.ForeignKey(ReleaseGroupType, on_delete=models.SET_NULL, null=True)
 
     def __str__(self):
         return self.name
     
-class Releases(models.Model):
+class Release(models.Model):
     title = models.CharField(max_length=50)
     release_year = models.IntegerField()
-    format_id = models.ForeignKey(ReleaseFormats, on_delete=models.SET_NULL, null=True)
-    country_id = models.ForeignKey(Countries, on_delete=models.SET_NULL, null=True)
-    release_group_id = models.ForeignKey(ReleaseGroups, on_delete=models.CASCADE)
+    format_id = models.ForeignKey(ReleaseFormat, on_delete=models.SET_NULL, null=True)
+    country_id = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True)
+    release_group_id = models.ForeignKey(ReleaseGroup, on_delete=models.CASCADE)
     annotation = models.TextField(max_length=200, null=True)
 
     def __str__(self):
         return self.title
 
-class Tracks(models.Model):
-    title = models.CharField(max_length=50, null=False)
-    title_kor = models.CharField(max_length=50, null=True)
-    title_jap = models.CharField(max_length=50, null=True)
-    featuring = models.CharField(max_length=50, null=True)
-    releases = models.ManyToManyField(Releases)
+

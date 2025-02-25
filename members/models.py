@@ -1,10 +1,10 @@
 from django.db import models
-from groupings.models import Groupings
+from groupings.models import Grouping
 
 # Create your models here.
 
 
-class Countries(models.Model):
+class Country(models.Model):
     name = models.TextField(max_length=50)
 
 
@@ -18,8 +18,8 @@ class Member(models.Model):
     first_name_ch = models.CharField(max_length=30, null=True)
     last_name_ch = models.CharField(max_length=30, null=True)
     date_of_birth = models.CharField(max_length=10, null=True)
-    country_id = models.ForeignKey(Countries, null=True, on_delete=models.CASCADE)
-    groupings_id = models.ManyToManyField(Groupings, null=True)
+    countries = models.ForeignKey(Country, null=True, on_delete=models.CASCADE)
+    groupings = models.ManyToManyField(Grouping, related_name="groupings")
 
     def __str__(self):
         return self.first_name
