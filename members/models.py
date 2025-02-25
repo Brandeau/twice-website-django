@@ -18,7 +18,7 @@ class Member(models.Model):
     first_name_ch = models.CharField(max_length=30, null=True)
     last_name_ch = models.CharField(max_length=30, null=True)
     date_of_birth = models.CharField(max_length=10, null=True)
-    countries = models.ForeignKey(Country, null=True, on_delete=models.CASCADE)
+    country = models.ForeignKey(Country, null=True, on_delete=models.CASCADE)
     groupings = models.ManyToManyField(Grouping, related_name="groupings")
 
     def __str__(self):
