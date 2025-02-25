@@ -1,6 +1,6 @@
 [
    {
-    "model": "groupings.Groupings",
+    "model": "groupings.Grouping",
     "pk": 1,
     "fields":{
         "name": "Twice",
@@ -8,7 +8,7 @@
     }
    },
    {
-    "model": "groupings.Groupings",
+    "model": "groupings.Grouping",
     "pk": 2,
     "fields":{
         "name": "Misamo",
@@ -16,7 +16,7 @@
     }
    },
    {
-    "model": "groupings.Groupings",
+    "model": "groupings.Grouping",
     "pk": 3,
     "fields":{
         "name": "Nayeon",
@@ -24,7 +24,7 @@
     }
    },
    {
-    "model": "groupings.Groupings",
+    "model": "groupings.Grouping",
     "pk": 4,
     "fields":{
         "name": "Jihyo",
@@ -32,7 +32,7 @@
     }
    },
    {
-    "model": "groupings.Groupings",
+    "model": "groupings.Grouping",
     "pk": 5,
     "fields":{
         "name": "Tzuyu",

@@ -1,41 +1,41 @@
 [
     {
-        "model": "members.Countries",
+        "model": "members.Country",
         "pk": 1,
         "fields":{
             "name": "Korea"
         }
     },
     {
-        "model": "members.Countries",
+        "model": "members.Country",
         "pk": 2,
         "fields":{
             "name": "Japan"
         }
     },
     {
-        "model": "members.Countries",
+        "model": "members.Country",
         "pk": 3,
         "fields":{
             "name": "Taiwan"
         }
     },
     {
-        "model": "members.Countries",
+        "model": "members.Country",
         "pk": 4,
         "fields":{
             "name": "China"
         }
     },
     {
-        "model": "members.Countries",
+        "model": "members.Country",
         "pk": 5,
         "fields":{
             "name": "United States"
         }
     },
     {
-        "model": "members.Countries",
+        "model": "members.Country",
         "pk": 6,
         "fields":{
             "name": "Thailand"
