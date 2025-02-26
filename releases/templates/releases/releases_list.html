@@ -1,0 +1,19 @@
+<!DOCTYPE html>  <html lang="en">  <head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Releases</title>  
+</head>
+    <body>
+        <h1>Releases</h1>
+
+    <ul>
+        {% for release in releases %}
+            <li>
+                <a href="{% url 'releases_detail' release.id %}">{{ release.name }}</a>
+            </li>
+        {% empty %}
+            <li>No releases found.</li>
+        {% endfor %}
+    </ul>
+    </body>
+</html>
