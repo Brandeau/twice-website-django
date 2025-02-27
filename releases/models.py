@@ -27,10 +27,10 @@ class ReleaseGroup(models.Model):
 class Release(models.Model):
     title = models.CharField(max_length=50)
     release_year = models.IntegerField()
-    format = models.ForeignKey(ReleaseFormat, on_delete=models.SET_NULL, null=True)
+    format = models.ForeignKey(ReleaseFormat, on_delete=models.SET_NULL, null=True, blank=True)
     country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True)
     release_group = models.ForeignKey(ReleaseGroup, on_delete=models.CASCADE)
-    annotation = models.TextField(max_length=200, null=True)
+    annotation = models.TextField(max_length=200, null=True, blank=True)
 
     def __str__(self):
         return self.title
