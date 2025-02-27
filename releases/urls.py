@@ -21,6 +21,6 @@ from releases.views import ReleasesDetailsView
 
 
 urlpatterns = [
-    path('', ReleasesListView.as_view()),
+    path('', ReleasesListView.as_view(), name='releases_list'),
     path('<int:id>', ReleasesDetailsView.as_view(), name="releases_detail")
 ]

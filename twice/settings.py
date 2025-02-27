@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "groupings",
     "releases",
     "tracks",
+    "home",
 ]
 
 MIDDLEWARE = [

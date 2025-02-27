@@ -21,6 +21,6 @@ from members.views import MembersDetailsView
 
 
 urlpatterns = [
-    path('', MembersListView.as_view()),
+    path('', MembersListView.as_view(), name="members_list"),
     path('<int:id>', MembersDetailsView.as_view(), name="members_detail")
 ]
